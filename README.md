@@ -1,6 +1,6 @@
-# Doc
+# 我的工具集
 
-My collections
+记录一些我以前没用但非常有用的事，或者一直在用但又记不住的一些事
 
 
 ## 命令行
@@ -12,7 +12,7 @@ alias edit='open -a Brackets' # 用指定的编辑器编辑文件
 alias serve='python -m SimpleHTTPServer'  # 快速在当前目录创建服务器
 alias work='cd ~/Workspace' # 快速跳到工作目录
 
-export EDITOR="/usr/bin/vim" # 设置黑夜编辑器
+export EDITOR="/usr/bin/vim" # 设置默认编辑器
 ```
 
 
@@ -43,8 +43,6 @@ fi
 ```
 
 
-* [Docfiles 聚合](http://dotfiles.github.io/)
-
 
 * Git tips
 
@@ -54,7 +52,7 @@ fi
 
 ## 工具
 
-* [hub](hub: https://github.com/github/hub)：Git 的一个扩展，让你能在命令行上操作 Github `(git + hub = github)`
+* [hub](https://github.com/github/hub)：Git 的一个扩展，让你能在命令行上操作 Github `(git + hub = github)`
 
 * [Google: Web Starter Kit](https://developers.google.com/web/starter-kit/)：流程工具
 
@@ -65,6 +63,7 @@ fi
 
 ## Web 开发
 
+* [Docfiles 聚合](http://dotfiles.github.io/)
 * [Google: Web 基本法则](https://developers.google.com/web/fundamentals/)
   
 包括四大流程：Set Up Environment、Build Your Site、Developing on Devices、Testing Your Site
