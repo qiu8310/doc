@@ -7,7 +7,7 @@
 
 * [正则表达式](https://github.com/qiu8310/grunt-deploy-asset/blob/master/regexp-help.md)
 * [编码相关的文档](https://https://github.com/qiu8310/ccode/tree/master/docs)
-
+* [ES6](./ES6.md)
 
 ## 命令行
 
