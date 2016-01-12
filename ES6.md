@@ -18,7 +18,8 @@
 
 ## Babel
 
-* [Setting up babel 6](http://babeljs.io/blog/2015/10/31/setting-up-babel-6/)
+* [Setting up babel 6 - Axel Rauschmayer](https://leanpub.com/setting-up-es6/read) 写的非常好，解释了很多问题
+* [Setting up babel 6 - Babel 官方](http://babeljs.io/blog/2015/10/31/setting-up-babel-6/)
 * [The Six Things You Need To Know About Babel 6](http://jamesknelson.com/the-six-things-you-need-to-know-about-babel-6/)
 * [Babel 6 的介绍（附带一些与 Babel 5 的区别）](http://jamesknelson.com/using-es6-in-the-browser-with-babel-6-and-webpack/)
 * [Using ES6 and ES7 in the Browser, with Babel 6 and Webpack](http://jamesknelson.com/using-es6-in-the-browser-with-babel-6-and-webpack/)
