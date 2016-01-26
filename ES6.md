@@ -24,6 +24,7 @@
 * [Babel 6 的介绍（附带一些与 Babel 5 的区别）](http://jamesknelson.com/using-es6-in-the-browser-with-babel-6-and-webpack/)
 * [Using ES6 and ES7 in the Browser, with Babel 6 and Webpack](http://jamesknelson.com/using-es6-in-the-browser-with-babel-6-and-webpack/)
 * [Writing NPM packages with ES6 using the Babel 6 CLI](http://jamesknelson.com/writing-npm-packages-with-es6-using-the-babel-6-cli/)
+* [Babel 入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2016/01/babel.html)
 
 
 ## 知识

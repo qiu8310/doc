@@ -1,4 +1,12 @@
 
+## Resource
+
+* [QuirksMode—for all your browser quirks](http://www.quirksmode.org/)
+* [The Modernizr issue tracker on GitHub](https://github.com/Modernizr/Modernizr/issues?q=is%3Aopen)
+* [LukeW Ideation + Design | Digital Product Strategy & Design](http://www.lukew.com/)
+
+## Mobile
+
 * 安桌 UC浏览器（版本 20151231）
   
   ```
@@ -34,6 +42,9 @@
 
   解决方案：在 img 下面再放一个稍微大点的 div，将它的背景设置成边框的颜色，再将图片上下左右居中的放在此 div 上
 
+
+## IE
+
 * IE7 float元素的子元素无法获取父元素被撑开的真实宽度
 
   如果父元素是 float 定位，其中一个子元素 A 将其撑开，另一个子元素 B 的宽度如果设置成 100%，则它其实无法达到 A 的宽度
@@ -59,5 +70,18 @@
   ```
   
   ![效果图](./res/ie7-float-percent.jpg)
+
+* IE7/8 无法使用 rgba 的颜色值
+
+  所以在创建 mask 时，需要将 mask 单独创建一个图层，然后通过 ie 的滤镜来设置此图片的整体透明度
+
+  ```
+  background-color: black;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  ```
+
+* IE7 a 标签不会继承父类标签的 color 值
+* IE7 scroll 事件不能绑定在 document 上，需要绑定在 window 上
 
 
