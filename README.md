@@ -10,7 +10,7 @@
 * [ES6](./ES6.md)
 * [CSS3](./CSS3.md)
 * [遇到的一些坑](./BUG.md)
-* [Amending a commit guide](./git/amending-a-commit-guide.md) - Copy from [here](https://github.com/RichardLitt/docs/blob/master/amending-a-commit-guide.md)
+* [Amending a commit guide](./git/amending-a-commit-guide.md) - Copy from [here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
 * 浏览器嗅探
   - 阿里的 [lib-env](https://github.com/amfe/lib-env)
   - 国外的 [bowser](https://github.com/ded/bowser)
