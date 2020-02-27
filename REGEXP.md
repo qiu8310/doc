@@ -153,7 +153,7 @@ $'                | 匹配字符串右边的字符
 
 
 ### 参考
-* [mathiasbynens][mathiasbynens]
+* [mathiasbynens: es regexp proposals][mathiasbynens]
 * [MDN RegExp][mdn]
 * [司徒正美：javascript正则表达式（讲解了一些基本知识）][1]
 * [前端乱炖: JS下的正则表达式（JS正则的回溯机制耗费性能分析 => 降低正则复杂度，尽量用JS去分析匹配后的字符串）][2]
