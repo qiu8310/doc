@@ -111,6 +111,26 @@
 		console.log(/a(?=b)/.test('ab') === true);
 		console.log(/a(?!b)/.test('ab') === false);
 
+### 反向前瞻
+
+ES2018 adds support for [lookbehind assertions](https://github.com/tc39/proposal-regexp-lookbehind). Positive lookbehind ensures a pattern is preceded by another pattern:
+
+
+```js
+const pattern = /(?<=\$)\d+/u;
+const result = pattern.exec('$42');
+// → result[0] === '42'
+```
+
+Negative lookbehind ensures a pattern is not preceded by another pattern:
+
+
+```js
+const pattern = /(?<!\$)\d+/u;
+const result = pattern.exec('€42');
+// → result[0] === '42'
+```
+
 
 ### String.match 方法（参见RegExp.exec方法）
 ### String.replace(regexp, replacement) 方法
